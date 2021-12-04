@@ -10,5 +10,5 @@ public interface CategoryService {
 
     Category save(Category category);
 
-    List<Category> findByFilters(JSONObject filters);
+    List<Category> findByUser(String username);
 }

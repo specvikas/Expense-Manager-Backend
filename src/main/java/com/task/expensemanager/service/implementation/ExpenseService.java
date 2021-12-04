@@ -10,7 +10,7 @@ public interface ExpenseService {
 
     Expense save(Expense expense);
 
-    Expense addCategoryToExpense(Long expenseId, Long categoryId);
+    Expense addCategoryToExpense(Long expenseId, Long categoryId) throws Exception;
 
     List<Expense> findByFilters(JSONObject filters);
 }
