@@ -5,11 +5,13 @@ import com.task.expensemanager.entity.User;
 import com.task.expensemanager.repository.RoleRepository;
 import com.task.expensemanager.repository.UserRepository;
 import com.task.expensemanager.service.RoleService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 
+@Slf4j
 @Service
 @Transactional
 public class RoleServiceImpl implements RoleService {
@@ -26,6 +28,7 @@ public class RoleServiceImpl implements RoleService {
 
     @Override
     public Role save(Role role) {
+        log.info("Role : {}", role);
         return roleRepository.save(role);
     }
 
