@@ -1,7 +1,7 @@
 package com.task.expensemanager.controller;
 
 import com.task.expensemanager.entity.Expense;
-import com.task.expensemanager.service.implementation.ExpenseService;
+import com.task.expensemanager.service.ExpenseService;
 import lombok.RequiredArgsConstructor;
 import org.json.JSONObject;
 import org.springframework.http.ResponseEntity;

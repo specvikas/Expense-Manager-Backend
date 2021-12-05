@@ -1,4 +1,4 @@
-package com.task.expensemanager.service.implementation;
+package com.task.expensemanager.service;
 
 import com.task.expensemanager.entity.Expense;
 import netscape.javascript.JSObject;

@@ -1,7 +1,7 @@
 package com.task.expensemanager.controller;
 
 import com.task.expensemanager.entity.Category;
-import com.task.expensemanager.service.implementation.CategoryService;
+import com.task.expensemanager.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

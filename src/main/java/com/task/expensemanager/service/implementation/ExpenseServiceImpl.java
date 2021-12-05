@@ -6,6 +6,7 @@ import com.task.expensemanager.entity.User;
 import com.task.expensemanager.repository.CategoryRepository;
 import com.task.expensemanager.repository.ExpenseRepository;
 import com.task.expensemanager.repository.UserRepository;
+import com.task.expensemanager.service.ExpenseService;
 import lombok.RequiredArgsConstructor;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
